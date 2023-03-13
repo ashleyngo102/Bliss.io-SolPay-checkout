@@ -1,2 +1,6 @@
-# Bliss.io-SolPay-checkout
-This project is about enabling Solana Pay / Phantom Wallet on eCommerce checkout site.
+Bliss.io Demo Store with Solana Pay and Loyalty Points System
+
+yarn install
+yarn dev
+starting on localhost:3000
+
