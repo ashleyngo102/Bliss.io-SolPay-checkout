@@ -1,0 +1,45 @@
+.container {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: auto;
+}
+
+.picker {
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  padding: auto;
+  padding-left: 20%;
+}
+
+@media (min-width: 256px) {
+  .picker {
+    padding-left: 30%;
+  }
+}
+
+@media (min-width: 512px) {
+  .picker {
+    padding-left: 40%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    height: 400px;
+    width: 30%;
+    position: relative;
+    float: left;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+  }
+  .picker {
+    padding-left: 30%;
+  }
+}
